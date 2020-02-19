@@ -3,7 +3,7 @@ services:
   data-science:
     build: 
       context: ./docker
-    image: shivangi/data-science-deep-learning
+    image: shivangi/coronavirus_dashboard
     ports:
       - "8888:8888"
     volumes:
